@@ -56,9 +56,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
-# Get the long list of APNs
-PRODUCT_COPY_FILES := $(LOCAL_PATH)/apns-conf.xml:system/etc/apns-conf.xml
-
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
